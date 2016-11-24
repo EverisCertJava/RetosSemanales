@@ -1,0 +1,27 @@
+Dado un arreglo de enteros,  calcula la fracción de sus elementos positivos, la fracción de sus elementos negativos, y la fracción de sus elementos que son cero, respectivamente.
+Imprime el valor decimal de cada fracción en una nueva línea.
+Nota: Este reto presenta problemas de precisión. Los casos de prueba se escalan a seis cifras decimales, aunque las respuestas con un error absoluto de hasta 10-4 son aceptables.
+
+Formato de entrada:
+La primera línea contiene un entero, N, denotando el tamaño del arreglo.
+La segunda línea contiene N enteros separados por espacios, describiendo un arreglo de números.
+
+Formato de salida: 
+Debes imprimir las siguientes 3 líneas:
+1. Un decimal representando la fracción de números positivos en el arreglo.
+2. Un decimal representando la fracción de números negativos en el arreglo.
+3. Un decimal representando la fracción de ceros en el arreglo.
+
+Ejemplo de entrada:
+6
+-4 3 -9 0 4 1  
+
+Ejemplo de salida:
+0.500000
+0.333333
+0.166667
+
+Explicación del ejemplo:
+Hay 3 números positivos, 2 números negativos y un cero en el arreglo. Las respectivas fracciones de números positivos, negativos y ceros son: 3/6= 0.500000, 2/6=0.333333 y 1/6=0.166667, respectivamente.
+
+

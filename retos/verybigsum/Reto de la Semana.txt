@@ -1,0 +1,24 @@
+Dado un arreglo de enteros de tamaño N, imprime la suma de los elementos en el arreglo. Recuerda que algunos de esos enteros pueden ser grandes.
+
+Formato de Entrada:
+La primera línea de entrada consiste en un entero N.  La siguiente línea contiene N enteros separados por un espacio, los cuales serán guardados en el arreglo.
+
+Formato de Salida: 
+Imprime un único valor, este será igual a la suma de los elementos en el arreglo. 
+
+Restricciones:
+1 <  N  <10
+0 ≤ A[i] ≤ 1010
+
+Ejemplo de Entrada:
+5
+1000000001 1000000002 1000000003 1000000004 1000000005
+
+Ejemplo de Salida:
+5000000015
+
+Nota:
+El rango de un entero  de 32 bits es (-231) a (231 -1) o [-2147483648, 2147483647].
+
+Cuando se añaden varios valores enteros, la suma resultante puede exceder el rango permitido. Se puede requerir el usode tipos de dato Long para guardar dichas sumas.
+

@@ -1,0 +1,44 @@
+B – Histogramas
+Elabora un programa para generar histogramas verticales en un espacio de 20 renglones por 60 columnas. Se tienen n datos de entrada (1 <= n <= 60), con valores en un rango de 0 a 100. Las barras deben ajustarse tanto de forma vertical como de forma horizontal, y se dibujan utilizando asteriscos.
+
+Entrada
+
+Se inicia con un renglón con el valor de n, número de barras en el histograma, seguido de n renglones, cada uno con un dato entre 0 y 100.
+
+Salida
+
+El histograma correspondiente a la entrada.
+
+Ejemplo de entrada
+
+6
+40
+30
+20
+10
+20
+10
+
+Ejemplo de salida
+
+**********
+**********
+**********
+**********
+**********
+********************
+********************
+********************
+********************
+********************
+******************************          **********
+******************************          **********
+******************************          **********
+******************************          **********
+******************************          **********
+************************************************************
+************************************************************
+************************************************************
+************************************************************
+************************************************************
+

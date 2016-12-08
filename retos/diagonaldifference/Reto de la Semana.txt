@@ -1,0 +1,31 @@
+Dada una matriz cuadrada de tamaño N x N, 
+calcula la diferencia absoluta entre la suma de sus diagonales.
+Formato de Entrada:
+La primera línea contiene un sólo entero, N. Las siguientes N líneas denotan los renglones de la matriz, en donde cada línea contiene N enteros separados por un espacio denotando las columnas.
+
+Formato de Salida: 
+Imprime la diferencia absoluta entre las dos sumas de las 
+diagonales de la matriz en un sólo entero.
+
+Ejemplo de Entrada:
+3
+11 2 4
+4 5 6
+10 8 -12
+
+Ejemplo de Salida:
+15
+
+Explicación:
+La diagonal principal es:
+11
+      5
+            -12
+La suma de la diagonal principal: 11 + 5 - 12 = 4
+La segunda diagonal es:
+            4
+      5
+10
+La suma de la segunda diagonal es: 4 + 5 + 10 = 19 
+Diferencia: |4 - 19| = 15
+
